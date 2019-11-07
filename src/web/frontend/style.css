@@ -1,0 +1,40 @@
+.App {
+    margin: 30px auto;
+    max-width: 320px;
+    padding: 2em;
+    border: 1px solid silver;
+    border-radius: 1em;
+
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: inline;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  background: white;
+  z-index: 1;
+  position: relative;
+}
+
+.selected {
+  border-bottom: none;
+}
+
+.Page {
+  padding: 40px;
+  border: 1px solid black;
+  position: relative;
+  bottom: 2px;
+  text-align: left;
+}
+
+.PageTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
