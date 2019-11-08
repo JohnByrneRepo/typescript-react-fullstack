@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Page } from "../routes/Page";
 import "./style.css";
-import classnames from "classnames";
 
 const App = () => {
   const [selectedPage, setSelectedPage] = useState("A");
